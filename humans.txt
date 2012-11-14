@@ -1,0 +1,23 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+	<Punto Áureo> -- <Studio> -- <@puntoaureomx>
+    <Dora Bartilotti> -- <Processing Developer> -- <@DoraYtzell>
+    <Erick Álvarez> -- <Front End Developer> -- <@1nm0n0>
+    <Aftab Hussain> -- <Back End Developer> -- <@wafto>
+    <Claudio Nebbia> -- <Tech Guru> -- <@claudionebbia>
+    <Adrián López> -- <Art Director> -- <@ad_olivos>
+    <Eduardo Ortiz Ramírez> -- <Visual Developer> -- <@edb_o>
+    <Jorge Reyes> -- <Graphic Designer> -- <twitter>
+    <Galatea> -- <Mascot> -- <>
+
+# THANKS
+
+    <>
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr
+    Processing.js, PHP
