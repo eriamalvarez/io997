@@ -30,9 +30,38 @@
                 Estas a punto de descubrir el <br />
                 potencial creativo de tu ADN digital.
             </p><br />
-		<a id="uno">REGISTRAR</a>
+		<a id="uno">REGISTRO</a>
 		<a id="dos">ACCEDER</a>
 	</section>
+
+<!--Footer deslizable-->
+<div id="footerSlideContainer">
+      <div id="footerSlideButton"><img src="img/geb.png"></div>
+      <div id="footerSlideContent">
+          <div id="footerSlideText">
+              
+          </div>
+      </div>
+  </div>
+<script>
+  // jQuery del footer
+  $(function() {
+      var open = false;
+      $('#footerSlideButton').click(function() {
+          if(open === false) {
+              $('#footerSlideContent').animate({ height: '300px' });
+              $(this).css('backgroundPosition', 'bottom left');
+              open = true;
+          } else {
+              $('#footerSlideContent').animate({ height: '0px' });
+              $(this).css('backgroundPosition', 'top left');
+              open = false;
+          }
+      });    
+  });
+</script>
+<!--Footer deslizable-->
+
 </body>
 		<script>
             var _gaq=[['_setAccount','UA-35030161-1'],['_trackPageview']];
