@@ -198,7 +198,7 @@ a:link{
   #footerSlideContent {
       width: 100%;
       height: 0px;
-      background-color: rgba(000, 000, 000, .3);
+      background-color: rgba(000, 000, 000, .5);
       color: #CCCCCC;
       font-size: 0.8em;
       border: none;
@@ -208,13 +208,22 @@ a:link{
   }
 
 /*estilo de game*/
+
 header{
+    z-index: 1000;
+    width: 100%;
+    height: 100px;
+    background:url(../img/bk.png);
+    position: fixed;
+    top: 0;
+}
+#cabeza{
     display:inline-block;
     vertical-align:middle;
     margin:0 auto;
     width:30%;
     position: absolute;
-    left: 1%;
+    left: -5%;
     top: 1%;
 }
 
@@ -228,7 +237,7 @@ nav{
     top: 1%;
 }
 
-header li, nav li{
+#cabeza li, nav li{
     border-right: thin solid;
     display:inline-block;
     vertical-align:top;
@@ -239,7 +248,7 @@ header li, nav li{
 nth-child(n)(se elige el numero "n" o hijo)
 */
 
-header li, nav li:last-child{
+#cabeza li, nav li:last-child{
     border:0;
 }
 
@@ -254,10 +263,11 @@ nav ul{
 
 canvas{
     position: absolute;
-    top: 10%;
+    top: 5%;
     left: 0%;
     width: 100%;
 }
+
 
 /* ==========================================================================
    Helper classes
