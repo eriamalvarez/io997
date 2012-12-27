@@ -1,11 +1,20 @@
-	<section id="form">
-		<h2>Registro</h2>
-		<input type="text" id="nombre" name="nombre" placeholder="Nombre" />
-		<input type="text" id="apellido" name="apellido" placeholder="Apellido"/><br />
-		<input type="text" id="correo" name="correo" placeholder="Correo Electrónico"/><br />
-		<input type="password" id="password" name="password" placeholder="Contraseña"/><br />
-		<input type="password" id="password" name="password" placeholder="Confirma tu contraseña"/><br />
-		<a href="game.html"><input type="submit" id="login" value="ENVIAR" /></a>
-		<!--el boton enviar es un href simulado-->
-		<input type="button" id="cancel_hide" value="LIMPIAR" />
-	</section>
+<div class="span12 centrado bienvenida">
+<h2>Registro</h2>
+<form action="html/game.html" method="get">
+	<div class="controls">
+		<input type="text" class="input-small" id="inputName" placeholder="Nombre">
+	<span class="espacio">&nbsp;</span>
+		<input type="text" class="input-small" id="inputName" placeholder="Apellido">
+	</div>
+	<div class="controls">
+		<input type="text" id="inputEmail" placeholder="Email">
+	</div>
+	<div class="controls">
+		<input type="password" id="inputPassword" placeholder="Contraseña">
+	</div>
+	<div class="controls">
+		<input type="password" id="inputPassword" placeholder="Confirma tu Contraseña">
+	</div>
+		<button type="submit" class="boton btn-large" id="enviar">Enviar</button>
+</form>
+</div>

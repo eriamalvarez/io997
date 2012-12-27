@@ -1,0 +1,6 @@
+canvas {
+	display: inline-block;
+	vertical-align: top;
+	border:dotted;
+	border-radius:5px;
+}

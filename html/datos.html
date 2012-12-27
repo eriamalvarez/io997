@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="es" class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>CromaWeb 2013 - The Game of Life</title>
+    <meta name="author" content="Cromafest"> 
+    <meta name="description" content="Website de CromaFEST 2013">
+    <meta name="viewport" content="width=device-width">
+    <meta name="tags" content="Animación, Videojuegos, Vfx, Interactividad, Multimedia, Economía Creativa, Industria Creativa, Cluster">
+    <!--cambios-->
+    <link href="../css/bootstrap.min.css" media="all" type="text/css" rel="stylesheet">
+    <link href="../css/bootstrap-responsive.min.css" media="all" type="text/css" rel="stylesheet">
+    <link href="../css/main.css" media="all" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/print.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="../css/normalize.css" type="text/css" media="screen"  />
+    <script src="../js/jquery-1.8.3.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/processing-1.4.1.min.js"></script>
+    <script type="../text/javascript" src="js/toxiclibs.js"></script>
+    <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+    <script src="../ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>
+      (function(){
+        $('.myCarousel').carousel();
+      }());
+
+      function toggle_text(shown, hidden) {
+       var e = document.getElementById(shown);
+       var f = document.getElementById(hidden);
+      if(e.style.display == 'inline') {
+                  e.style.display = 'none';
+                  f.style.display = 'inline';
+      }
+      else {
+                  e.style.display = 'inline';
+                  f.style.display = 'none';
+      }
+}
+    </script>
+    <!--Script Efectos Ajax--> 
+    <script src="../js/efectos.js"></script>
+
+  	</head>
+  	<body>
+        
+        	<div id="publicidad" class="span12 centrado">
+          			<img src="../img/ads/ad001.png" class="ads"><br />
+
+            <div id="shown_first" style="display:inline">
+              <a class="botonX"style="cursor:pointer" onclick="toggle_text('shown_first', 'hidden_first')">ocultar</a>
+            </div>
+
+            <div id="hidden_first" style="display:none">
+              <a class="botonX"style="cursor:pointer" onclick="toggle_text('shown_first', 'hidden_first')">publcidad</a>
+            </div>
+        	</div>
+
+        <section class="span12 centrado">
+        	<div class="span12">
+          		<h1><a href="../index.html">CromaFest 2013</a></h1>
+        	</div>
+    		<div  id="carga">
+
+<div class="span12 centrado">
+<h2>Información adicional</h2>
+<form action="html/game.html" method="get">
+   <div class="controls">
+    <input type="radio" class="input-small" id="hombre">Hombre
+  <span class="espacio3">&nbsp;</span>
+    <input type="radio" class="input-small" id="mujer">Mujer
+  </div>
+  <div class="controls">
+    <select class="input-small" id="nacimiento"></select>
+  <span class="espacio">&nbsp;</span>
+  <span class="espacio">&nbsp;</span>
+    <select class="input-small" id="pais"></select>
+  </div><br>
+  <div class="controls">
+    <select class="input-small" id="nacimiento"></select>
+  <span class="espacio">&nbsp;</span>
+  <span class="espacio">&nbsp;</span>
+    <select class="input-small" id="pais"></select>
+  </div><br>
+  <div class="controls">
+    <input type="text" placeholder="Campo de Trabajo">
+  </div>
+  <div class="controls">
+    <label class="checkbox inline">
+      <input type="checkbox" value=""> Deseo recibir información de Croma en mi correo
+    </label><br>
+    <label class="checkbox inline">
+      <input type="checkbox" value=""> He leido y acepto las políticas de privacidad y uso de datos personales
+    </label>
+  </div><br>
+    
+    <button type="submit" class="boton btn-large" id="Actualizar">Actualizar datos</button>
+
+</form>
+</div>
+
+    		</div>
+      </section>
+    <footer>   
+    	<div id="myCarousel" class="carousel slide">
+    <!-- Carousel items -->
+    		<div class="carousel-inner">
+    			<div class="active item"></div>
+    			<div class="item blue"></div>
+    			<div class="item yellow"></div>
+    			<div class="item red"></div>
+    		</div>
+    <!-- Carousel nav -->
+    		<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+    		<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    	</div>
+	</footer> 
+  </body>
+   <script>
+            var _gaq=[['_setAccount','UA-35030161-1'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+</html>

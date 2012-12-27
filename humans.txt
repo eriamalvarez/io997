@@ -2,13 +2,13 @@
 # The humans responsible & technology colophon
 
 # TEAM
-	<Punto Áureo> -- <Studio> -- <@puntoaureomx>
+	<Punto Ã�ureo> -- <Studio> -- <@puntoaureomx>
     <Dora Bartilotti> -- <Processing Developer> -- <@DoraYtzell>
-    <Erick Álvarez> -- <Front End Developer> -- <@1nm0n0>
+    <Erick Ã�lvarez> -- <Front End Developer> -- <@1nm0n0>
     <Aftab Hussain> -- <Back End Developer> -- <@wafto>
     <Claudio Nebbia> -- <Tech Guru> -- <@claudionebbia>
-    <Adrián López> -- <Art Director> -- <@ad_olivos>
-    <Eduardo Ortiz Ramírez> -- <Visual Developer> -- <@edb_o>
+    <Adrian Lopez> -- <Art Director> -- <@ad_olivos>
+    <Eduardo Ortiz Ramirez> -- <Visual Developer> -- <@edb_o>
     <Jorge Reyes> -- <Graphic Designer> -- <twitter>
     <Galatea> -- <Mascot> -- <>
 
